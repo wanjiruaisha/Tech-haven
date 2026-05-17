@@ -1,0 +1,16 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111827;
+        color: wheat;
+    }
+    .navbar,
+    .product-card,
+    .cart-sidebar,
+    .model-content {
+        background: #1f2937;
+        color: white;
+    }
+    .nav-links a {
+        color: white;
+    }
+}

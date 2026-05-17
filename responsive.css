@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .hero-content {
+        font-size: 2rem;
+
+    }
+    .filters {
+        flex-direction: column;
+    }
+    .cart-sidebar {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+ 

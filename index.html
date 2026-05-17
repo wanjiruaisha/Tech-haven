@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Haven Store</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="darkmode.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <script src="https://kit.fontawesome.com/13e3627899.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="navbar">
+        <h1 class="logo">Tech Haven</h1>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Upgrade Your Tech Setup</h2>
+            <p>Premium electronics for work, gaming, and entertainment.</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+  <!-- FILTER BAR -->
+    <section class="filters">
+        <select>
+            <option>Sort by Price</option>
+            <option>Low to High</option>
+            <option>High to Low</option>
+        </select>
+
+        <select>
+            <option>Category</option>
+            <option>Laptops</option>
+            <option>Accessories</option>
+            <option>Audio</option>
+        </select>
+    </section>
+
+    <!-- PRODUCT GRID -->
+    <main class="product-grid" id="products">
+
+        <!-- PRODUCT CARD -->
+        <article class="product-card">
+            <img src="assets/images/Gaming-laptop.jpg" alt="Gaming-laptop">
+
+            <div class="product-info">
+                <h3>Gaming Laptop</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <p class="price">$1,299</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/wireless-headphones.jpg" alt="Wireless-headphones">
+
+            <div class="product-info">
+                <h3>Wireless Headphones</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="price">$199</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+         <article class="product-card">
+            <img src="assets/images/Mechanical-keyboard.jpg" alt="Mechanical-keyboard">
+
+            <div class="product-info">
+                <h3>Mechanical Keyboard</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <p class="price">$89</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/Smartphone.jpg" alt="Smartphone">
+
+            <div class="product-info">
+                <h3>Smartphone</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="price">$999</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/Gaming-mouse.jpg" alt="Gaming-mouse">
+
+            <div class="product-info">
+                <h3>Gaming Mouse</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="price">$59</p>
+
+                <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img src="assets/images/Bluetooth-speaker.jpg" alt="Bluetooth-speaker">
+
+            <div class="product-info">
+                <h3>Bluetooth Speaker</h3>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="price">$149</p>
+
+                  <a href="#product-modal" class="add-cart">View Product</a>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- SHOPPING CART SIDEBAR -->
+    <aside class="cart-sidebar">
+        <h2>Your Cart</h2>
+
+        <div class="cart-item">
+            <p>Gaming Laptop</p>
+            <span>$1299</span>
+        </div>
+
+        <div class="cart-item">
+            <p>Wireless Headphones</p>
+            <span>$199</span>
+        </div>
+
+        <button class="checkout-btn">Checkout</button>
+    </aside>
+
+     <!-- PRODUCT MODAL -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+
+            <img src="assets/images/Gaming-laptop.jpg" alt="Laptop">
+
+            <h2>Gaming Laptop</h2>
+            <p>
+                High-performance laptop designed for gaming,
+                multitasking, and productivity.
+            </p>
+
+            <p class="price">$1299</p>
+        </div>
+    </div>
+    <!--footer section-->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- BRAND SECTION -->
+            <div class="footer-section">
+                <h2>Tech Haven</h2>
+
+                <p>
+                    Premium electronics store focused on modern
+                    technology, gaming accessories, and smart devices.
+                </p>
+
+                <div class="social-icons">
+                     <a href="https://www.facebook.com/Tech-haven" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a> |
+                     <a href="https://www.instagram.com/Tech-haven" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a> |
+                     <a href="https://www.tiktok.com/Tech-haven" target="_blank"><i class="fa-brands fa-tiktok"></i>TikTok</a>
+                </div>
+            </div>
+            <!-- QUICK LINKS -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- NEWSLETTER -->
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+
+                <p>
+                    Get updates on exclusive deals and new arrivals.
+                </p>
+
+                <form class="newsletter-form">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                    >
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+
+            <!-- CUSTOMER SERVICE -->
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- FOOTER BOTTOM -->
+<div class="footer-bottom">
+    <p>
+        © 2026 Tech Haven. All Rights Reserved.
+    </p>
+</div>
+
+            
+</body>
+</html>
+

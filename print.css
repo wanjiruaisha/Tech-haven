@@ -1,0 +1,17 @@
+@media print {
+    .navbar,
+    .filters,
+    .cart-sidebar,
+    .add-cart,
+    .cart-btn {
+        display: none;
+    }
+    body {
+        background: white;
+        color: black;
+        
+    }
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
