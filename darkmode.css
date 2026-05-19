@@ -6,11 +6,37 @@
     .navbar,
     .product-card,
     .cart-sidebar,
-    .model-content {
+    .modal-content {
         background: #1f2937;
         color: white;
     }
     .nav-links a {
         color: white;
+    }
+    .search-box {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        background: #374151;
+        border: 1px solid #4b5563;
+        border-radius: 30px;
+        padding: 0.6rem 1rem;
+        width: 260px;
+    }
+
+    .search-box i {
+        color: #fbbf24;
+    }
+
+    .search-box input {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+    }
+
+    .search-box input::placeholder {
+        color: #9ca3af;
     }
 }

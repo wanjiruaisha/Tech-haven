@@ -10,6 +10,10 @@
         justify-content: center;
 
     }
+    .search-box {
+        order: 3;
+        width: 100%;
+    }
     .hero-content {
         font-size: 2rem;
 

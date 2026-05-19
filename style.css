@@ -13,6 +13,36 @@
    box-shadow: var(--shadow);
    position: sticky;
    top: 0;   
+   gap: 1.5rem;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 30px;
+    padding: 0.6rem 1rem;
+    width: 260px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.search-box i {
+    color: #f59e0b;
+    font-size: 0.95rem;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 0.95rem;
+    background: transparent;
+    color: #1f2937;
+}
+
+.search-box input::placeholder {
+    color: #9ca3af;
 }
 
 img {
@@ -122,6 +152,22 @@ body {
     font-weight: bold;
     margin-bottom: 1rem;
  }
+button,
+.add-cart {
+width: 100%;
+padding: 0.9rem;
+border: none;
+
+border-radius: 8px;
+background: var(--primary-color);
+color: white;
+transition: var(--transition-speed);
+display: inline-block;
+text-align: center;
+text-decoration: none;
+color: var(--dark-color);
+transition: var(--transition-speed);
+}
 
  .add-cart {
     width: 100%;
@@ -135,7 +181,7 @@ body {
  
  /* Footer */
   .footer {
-    background: violet;
+    background: grey;
     color: whitesmoke;
     margin-top: 4rem;
     padding-top: 4rem;
@@ -161,7 +207,7 @@ body {
     color: black;
   }
   .footer-section a {
-    color: #d1d;
+    color: wheat;
     text-decoration: none;
     transition: 0.3s ease;
     
@@ -190,7 +236,7 @@ body {
 
   }
   .social-icons a:hover {
-   background: yellow;
+   background: white;
    transform: translateY(-5px);
   }
   
@@ -205,7 +251,7 @@ body {
    padding: 1rem;
    border: none;
    border-radius: 8px;
-   background: skyblue;
+   background: white;
    outline: none;
   }
   .newsletter-form button {
@@ -213,7 +259,7 @@ body {
 
    border: none;
    border-radius: 8px;
-   background: peru;
+   background: brown;
    color: wheat;
    
    transition: 0.3s ease;
